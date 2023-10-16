@@ -36,5 +36,5 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .using-grid li{
-    width: 100%;
+    width: 25%;
 }
