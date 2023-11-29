@@ -1,0 +1,161 @@
+.column_container{
+    width: 80%;
+    margin:auto;
+}
+.tolkien img{
+    width:35%;
+    float: left;
+    display: block;
+}
+section{
+   padding: 50px;
+}
+.buttons{
+    float: right;
+}
+.tolkien{
+    background-color: rgb(53, 81,95 );
+    color:rgb(174, 140, 18) ;
+    display: grid;
+    width: 100%;
+}
+.world{
+    background-color: rgb(53, 81,95 ) ;
+    color: rgb(174, 140, 18);
+}
+.races{
+    color: rgb(53, 81,95 );
+}
+.world ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.world img{
+    width: 200px;
+}
+.races img{
+    width: 200px;
+}
+.languages img{
+    width: 200px;
+}
+html{
+    background-color: rgb(238, 238, 224);
+}
+.languages{
+    background-color: rgb(100, 107, 98);
+    color:rgb(238, 238, 224);
+
+}
+.languages p{
+    margin-left: 400px;
+}
+.races p{
+    margin-left: 400px;
+}
+.intro{
+    color:rgb(53, 81,95 );
+}
+.adaptations{
+    color:rgb(53, 81,95 ) ;
+}
+.images ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.images img{
+    width: 400px;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(75, 78, 74);
+    width: 100%;
+    padding: 20px;
+}
+.nav a{
+    color: rgb(238, 238, 224);
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: "prenton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+p{
+    font-family: "prenton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h4{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    width: 70%;
+    line-height: 130px;
+    margin-bottom: 20px;
+}
+.intro p{
+   column-count: 2;
+   column-gap: 24px;
+   width: 70%;
+   text-align: justify;
+   font-size: 16px;
+}
+.tolkien p{
+    column-count: 2;
+    column-gap: 24px;
+    width: 70%;
+    text-align: justify;
+    font-size: 16px;
+    float: right;
+    position: relative;
+    top: -400px;
+}
+.buttons a{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration-thickness: 2px;
+    color:rgb(53, 81,95 ) ;
+}
+.buttons li{
+    font-size: 40px;  
+    color:rgb(53, 81,95 ) ;
+    position: relative;
+   top: -470px;
+   line-height: 140px;
+}
+
+.tolkien h1{
+    float: right;
+/* }
+.overlap{
+    position: relative;
+    left:-370px;
+   
+}
+.wrap{
+    position: relative;
+    left:-155px;
+    top: -140px;
+} */
