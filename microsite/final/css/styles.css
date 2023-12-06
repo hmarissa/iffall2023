@@ -1,0 +1,483 @@
+html{
+    background-color: rgb(238, 238, 224);
+    color:rgb(53, 81,95);
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+.column_container{
+    width: 90%;
+    margin:auto;
+}
+h1{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+p{
+    font-family: "prenton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 130%;
+    
+}
+h2{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 40px;
+}
+h3{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    
+}
+h4{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 85px;
+    width: 100%;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(75, 78, 74);
+    width: 100%;
+    padding: 20px;
+    z-index: 9999;
+}
+.nav a{
+    color: rgb(238, 238, 224);
+    text-decoration: none;
+    padding-right: 50px;
+    font-family: "prenton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    float: right;
+}
+.nav a:hover{
+    color: rgb(160, 160, 128);
+}
+.nav .main{
+    color: rgb(198, 172, 77);
+    text-decoration: none;
+    padding-right: 50px;
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+     float: left;
+}
+.footer{
+    background-color: rgb(75, 78, 74);
+    color:rgb(238, 238, 224); 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+.footer p{
+    font-size: 16px;
+}
+#sources ul{
+    list-style-type: none;
+}
+#sources a{
+    text-decoration: none;
+    font-family: "prenton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(238, 238, 224); 
+}
+#sources a:hover{
+    color: rgb(160, 160, 128);
+}
+
+
+.hero{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.homeimg img{
+    position: relative;
+    width: 40%;
+    left: 200px;
+    top: 100px; 
+}
+.hometitle{
+    position: relative;
+    top: 250px;
+    right: 150px;
+}
+
+
+
+.intro{
+    display: grid;
+}
+.intro p{
+    column-count: 2;
+    column-gap: 26px;
+    width: 60%;
+    text-align: justify;
+ }
+
+.buttons ul{
+    float: right;
+    margin-top: -500px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    
+}
+.buttons a{
+    font-family: "dutch-mediaeval-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(125, 146, 119) ;
+    border-bottom-width:2px ;
+    border-bottom-style: solid;
+    padding-bottom: 4px;
+    text-decoration: none;
+    
+}
+.buttons li{
+    font-size: 40px;  
+    color:rgb(125, 146, 119) ;
+    /* position: relative; */
+   line-height: 140px;
+}
+
+
+
+
+.tolkien{
+    background-color: rgb(53, 81,95 );
+    color:rgb(198, 172, 77) ;
+    display: grid;
+    width: 100%;  
+}
+.tolkien .bioinfo p{
+    column-count: 2;
+    column-gap: 26px;
+    text-align: justify;
+    width: 60%;
+    float: right;
+}
+.tolkien h1{
+    float: right;
+    padding-top: 50px;
+}
+.bioimg img{
+    float: left;
+    width: 600px;
+    padding: 0;
+    
+}
+
+
+.adaptations{
+    padding-top: 100px;
+}
+.adaptations ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   text-align: center;
+   padding-bottom: 40px;
+}
+.adaptations img{
+    width: 60%;
+    height: 90%;
+}
+.adaptations h2{
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+
+.text{
+    padding-top: 100px;
+}
+
+.images img{
+    width: 80%;
+    height:60%;
+    object-fit: cover;
+    padding: 0px;
+    padding-bottom: 40px;
+   
+}
+.images ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+
+.concept{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.world{
+    background-color: rgb(53, 81,95 ) ;
+    color:rgb(198, 172, 77);
+    padding: 20px;
+}
+.world p{
+    column-count: 2;
+    column-gap: 26px;
+    text-align: justify;
+    width: 60%;
+    float: left;
+    padding-right: 40px;
+}
+.world .scroll{
+    display: grid;
+    grid-auto-flow: column; 
+    grid-auto-columns: 70%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+ }
+ .world img{
+     width: 400px;
+     height: 250px;
+ }
+.races li{
+    padding-bottom: 50px;
+}
+.races li div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.races p{
+    width: 60%;
+    text-align: justify;
+    
+}
+.races img{
+    width: 50%;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.languages ul{
+    list-style-type: none;
+}
+.languages li div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.languages li{
+    padding-bottom: 50px;
+}
+.languages p{
+    width:60%;
+    text-align: justify;
+}
+.languages img{
+    width: 60%;
+    padding-left: 10px;
+}
+.languages{
+    background-color: rgb(125, 146, 119);
+    color:rgb(238, 238, 224);
+    padding: 20px;
+}
+
+
+
+
+ .characters ul{
+    list-style-type: none;
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+.characters li{
+    text-align: center;
+   
+}
+.characters img{
+    width: 80%;
+    height:55%;
+    object-fit: cover;
+}
+.characters h3{
+    padding-top: 5px;
+}
+.plot p{
+    column-count: 3;
+    column-gap: 26px;
+    text-align: justify;
+    width: 100%;
+    padding-right: 20px;
+}
+.plot{
+    background-color: rgb(125, 146, 119);
+    color:rgb(238, 238, 224);
+    padding: 20px;
+}
+.characters h1{
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1500px){
+ .characters img{
+    width: 70%;
+ }
+h4{
+    font-size: 70px;
+}
+.bioimg img{
+    width: 400px;
+}
+}
+@media (max-width: 1400px){
+h4{
+    font-size:60px ;
+}
+}
+@media (max-width: 1300px){
+    .world p{
+        column-count: 1;
+    }
+    .plot p{
+        column-count: 1;
+    }
+    h4{
+        font-size:50px ;
+        line-height: 70px;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .hometitle{
+        position: relative;
+        top: 0px;
+        right: -185px;
+    }
+    .homeimg{
+        position: relative;
+        right: -85px;
+        width: 40%;
+        padding-bottom: 30px;
+    }
+    .hero{
+        padding-bottom: 0;
+    }
+    .intro p{
+        column-count: 1;
+    }
+    .tolkien .bioinfo p{
+        column-count: 1;
+    }
+   
+    }
+    @media (max-width: 1300px){
+        .world .scroll{
+            padding-bottom: 100px;
+        }
+        .buttons ul{
+        float: right;
+        margin-top: 0px;
+        padding-bottom: 100px;
+        padding-right: 300px;
+            
+        }
+      
+         .intro{
+        display: block;
+    }
+    h2{
+        font-size: 20px;
+    }
+   .images ul{
+    grid-template-columns: 1fr 1fr;
+   }
+    .intro p{
+        width: 100%;
+    }
+    .tolkien .bioinfo p{
+        width: 100%;
+    }
+    .races p{
+        width: 100%;
+    }
+    .languages p{
+        width: 100%;
+    }
+    }
+    @media (max-width: 950px){
+        .characters ul{
+            grid-template-columns: 1fr 1fr;
+        }
+        .world p{
+            width: 100%;
+        }
+        .adaptations ul{
+            grid-template-columns: 1fr;
+        }
+        .adaptations img{
+            width: 40%;
+        }
+        .bioimg img{
+            width: 300px;
+        }
+        .adaptations h2{
+            width: 100%;
+        }
+        .plot p{
+    font-size: 16px;
+   }
+   .languages p{
+    font-size: 16px;
+   }
+   .races h3{
+    font-size: 30px;
+   }
+   .races p{
+    font-size: 16px;
+   }
+   .characters h3{
+    font-size: 20px;
+   }
+   .images ul{
+    grid-template-columns: 1fr;
+   }
+   .nav {
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   
+    }
+    @media (max-width: 750px){
+        .races li div{
+            grid-template-columns: 1fr;
+
+        }
+        .languages li div{
+            grid-template-columns: 1fr;
+
+        }
+    }
+    
